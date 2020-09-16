@@ -302,21 +302,8 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <script>
-        $(function() {
-            console.log('Something Clicked');
-            $('.carousel').carousel( { interval: 2000,pause:"false" } );
-            $('#carouselPause').click(function(){
-                console.log('Pause Button Clicked');
-                $('.carousel').carousel('pause');
-            });
-            $('#carouselPlay').click(function(){
-                console.log('Play Button Clicked');
-                $('.carousel').carousel('cycle');
-            });
-        });
-    </script>
+    <script src="js/scripts.js"></script>
+    
 </body>
 
 </html>
