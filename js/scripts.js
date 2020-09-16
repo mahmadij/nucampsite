@@ -1,4 +1,3 @@
-
         $(function() {
             console.log('Something Clicked');
             $('.carousel').carousel( { interval: 2000} );
