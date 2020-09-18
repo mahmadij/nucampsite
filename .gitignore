@@ -2,3 +2,5 @@ node_modules
 demo
 demo*.html
 dist
+package-lock.json
+package-lock-working.json
