@@ -4,3 +4,6 @@ demo*.html
 dist
 package-lock.json
 package-lock-working.json
+package.txt
+tmp.html
+styles.css
